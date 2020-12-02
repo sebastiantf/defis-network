@@ -1,7 +1,7 @@
 // vue.config.js
 module.exports = {
   // 配置项
-  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/', // 资源文件目录
+  publicPath: process.env.NODE_ENV === 'production' ? './' : './', // 资源文件目录
   // 开启esLint
   lintOnSave: process.env.NODE_ENV !== 'production',
   // 开发服务配置

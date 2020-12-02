@@ -250,7 +250,6 @@ const constantRouter = [
 
 export default new Router({
   base: '/',
-  mode: 'history',
   routes: constantRouter,
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
